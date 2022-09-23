@@ -44,15 +44,19 @@ td, th {
     height: 26px;
 }
 
-.circles-wrapper {
-    position: relative;
-    height: 400px;
-    width: 400px;
-    margin-top: 40px;
+.red {
+    background: rgba(255, 0, 0, 0.5);
 }
 
-.red-circle, .blue-circle, .green-circle {
-    position: fixed;
+.blue {
+    background: rgba(0,0,255,0.5);
+}
+
+.green {
+    background: rgba(0,255,0,0.5);
+}
+
+.circle {
     height: 200px;
     width: 200px;
     border: black 2px solid;
@@ -60,19 +64,44 @@ td, th {
     box-sizing: border-box;
 }
 
-.red-circle {
-    left: 100px;
-    background: rgba(255, 0, 0, 0.5);
+.circles-wrapper-position {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
 }
 
-.blue-circle {
+.circles-wrapper-position .circle {
+    position: fixed;
+}
+
+.circles-wrapper-position .red {
+    left: 100px;
+}
+
+.circles-wrapper-position .blue {
     top: 300px;
     left: 25px;
-    background: rgba(0,0,255,0.5);
 }
 
-.green-circle {
+.circles-wrapper-position .green {
     top: 300px;
     left: 175px;
-    background: rgba(0,255,0,0.5);
+}
+
+.circles-wrapper-transform {
+    height: 400px;
+    width: 400px;
+}
+
+.circles-wrapper-transform .red {
+    transform: translate(100px);
+}
+
+.circles-wrapper-transform .blue {
+    transform: translate(25px, -75px);
+}
+
+.circles-wrapper-transform .green {
+    transform: translate(175px, -275px);
 }

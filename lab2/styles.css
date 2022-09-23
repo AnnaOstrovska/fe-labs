@@ -43,3 +43,36 @@ td, th {
 .third-row {
     height: 26px;
 }
+
+.circles-wrapper {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.red-circle, .blue-circle, .green-circle {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    border: black 2px solid;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.red-circle {
+    left: 100px;
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.blue-circle {
+    top: 300px;
+    left: 25px;
+    background: rgba(0,0,255,0.5);
+}
+
+.green-circle {
+    top: 300px;
+    left: 175px;
+    background: rgba(0,255,0,0.5);
+}

@@ -1,0 +1,45 @@
+table, th, td {
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 1000px;
+}
+
+th {
+    width: 25%;
+}
+
+.third-column {
+    width: 50%;
+}
+
+td, th {
+    padding: 13px;
+}
+
+.first-row {
+    background-color: #158f8f;
+    color: #000E0E;
+}
+
+.first-row:hover {
+    background-color: #000E0E;
+    color: #158f8f;
+}
+
+.second-row {
+    background-color: #f5f515;
+    color: #0E7070;
+}
+
+.second-row:hover {
+    background-color: #0E7070;
+    color: #f5f515;
+}
+
+.third-row {
+    height: 26px;
+}

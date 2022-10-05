@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.text-top {
+    background-color: rgba(106, 193, 244, 0.89);
+    height: 15%;
+}
+
+.body {
+    height: 75%;
+}
+
+.text-left {
+    background-color: rgba(98, 244, 98, 0.87);
+    height: 100%;
+    width: 75%;
+}
+
+.img-right {
+    background-color: rgba(77, 178, 77, 0.71);
+    height: 100%;
+    width: 25%;
+}
+
+.img-bottom {
+    background-color: rgb(12, 255, 186);
+    height: 10%;
+}
+
+.task1, .task2 {
+    position: relative;
+    height: 800px;
+    width: 800px;
+    border: black 4px solid;
+}
+
+.task1 > div {
+    position: relative;
+}
+
+
+.task1 > .body > .text-left,
+.task1 {
+    float: left;
+}
+
+.task1 > .body > .img-right,
+.task2 {
+    float: right;
+}
+
+.task2 > .body {
+    display: flex;
+}

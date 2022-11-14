@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Островська А.Ю, ІК-01</title>
+        <meta charset="UTF-8">
+        <meta name="keywords"
+              content="Островська Анна, лабораторна робота 1, основи Front-End технологій, ІК-01">
+        <meta name="description" content="Лабораторна робота №1 з курсу 'Основи Front-End технологій' студентки ІК-01 Островської Анни">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="main-block">
+            <div>
+                <div class="header-wrapper">
+                    <h2>Островська Анна Юріївна</h2>
+                    <span><b>Місце і дата народження:</b> м. Кропивницький, 17 жовтня, 2002 року</span>
+                    <span id="study" onclick="changeColorWithGetElement()"><b>Школа:</b> гімназія №9, м. Кропивницький. <b>Університет:</b> КПІ ім. Ігоря Сікорського</span>
+                </div>
+                <div class="lists-wrapper hobby" onclick="changeColorWithQuerySelector()">
+                    <h3>Хобі</h3>
+                    <ul>
+                        <li>Танці</li>
+                        <li>Малювання</li>
+                        <li>Програмування</li>
+                    </ul>
+                </div>
+                <div class="lists-wrapper">
+                    <h3>Фільми</h3>
+                    <ol>
+                        <li>"Гаррі Поттер"</li>
+                        <li>"Володар перстнів"</li>
+                        <li>"Початок"</li>
+                    </ol>
+                </div>
+                <div class="city-wrapper">
+                    <h3>Флоренція</h3>
+                    <span>Місто в Італії в провінції Тоскана, розташоване практично в центрі країни на берегах річки Арно.
+                            Це один з головних туристичних центрів Європи, який розкинувся серед тосканських пагорбів на значній
+                            відстані від морського узбережжя. Це легендарне італійське місто із тисячолітньою історією - тут батьківщина
+                            Мікеланджело, Галілея, Данте, Леонардо да Вінчі та Амеріго Веспуччі.</span>
+                </div>
+            </div>
+
+            <div class="image-wrapper">
+                <a href="https://www.feelflorence.it/en" target=”_blank”>
+                    <img alt="Florence" src="https://planetofhotels.com/guide/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Florence_1_1.jpg" />
+                </a>
+                <button onclick="addImage()">Add</button>
+                <button onclick="zoomIn()">Zoom in</button>
+                <button onclick="zoomOut()">Zoom out</button>
+                <button onclick="remove()">Delete</button>
+                <div class="task2"></div>
+            </div>
+        </div>
+    </body>
+</html>

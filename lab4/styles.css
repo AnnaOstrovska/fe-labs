@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    background: rgb(158,242,184);
+    background: linear-gradient(0deg, rgba(158,242,184,1) 0%, rgba(174,242,244,1) 100%);
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.main-block {
+    display: flex;
+    height: 600px;
+}
+
+.header-wrapper {
+    display: grid;
+    gap: 10px;
+}
+
+.lists-wrapper {
+    margin-left: 20px;
+}
+
+img {
+    height: 100%;
+}
+
+.image-wrapper {
+    margin-left: 20px;
+}
+
+#study,
+.hobby {
+    cursor: pointer;
+}

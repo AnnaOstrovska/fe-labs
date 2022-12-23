@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>Островська А.Ю, ІК-01</title>
+        <meta charset="utf-8">
+        <meta name="keywords"
+              content="Островська Анна, лабораторна робота 5, основи Front-End технологій, ІК-01">
+        <meta name="description" content="Лабораторна робота №5 з курсу 'Основи Front-End технологій' студентки ІК-01 Островської Анни">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="task1">
+            <h2>Завдання 1:</h2>
+            <div class="main-block">
+                <form id="form">
+                    <div class="input-wrapper">
+                        ПІБ:<br>
+                        <input type='text' id='pib' placeholder="Франко І.Я."><br>
+                    </div>
+                    <div class="input-wrapper">
+                        Група:<br>
+                        <input type='text' id='group' placeholder="ІК-01"><br>
+                    </div>
+                    <div class="input-wrapper">
+                        Факультет:<br>
+                        <input type='text' id='faculty' placeholder="ФІОТ"><br>
+                    </div>
+                    <div class="input-wrapper">
+                        Aдреса:<br>
+                        <input type='text' id='adress' placeholder="м.Київ"><br>
+                    </div>
+                    <div class="input-wrapper">
+                        Телеграм:<br>
+                        <input type='text' id='telegram' placeholder="@username"><br>
+                    </div>
+                    <br>
+                    <button type="button" id="submit" onclick="handleSubmit()">Надіслати</button>
+                </form>
+                <div id="userInfo"></div>
+            </div>
+        </div>
+        <div class="task2">
+            <h2>Завдання 2:</h2>
+            <input type="color" class="palette" value="#ff0000">
+            <table></table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
